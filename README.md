@@ -27,8 +27,8 @@ El script comenzará a reiniciar las instancias AWS automáticamente. Cada reini
 El script utiliza la función `actualizarAWS()` que está configurada para ejecutarse de manera recurrente. Aquí hay una descripción de las partes clave del código:
 
 ```javascript
-const min = 720000;  // 11 minutos en milisegundos
-const max = 1080000; // 18 minutos en milisegundos
+const min = 790000;  // 13 minutos en milisegundos
+const max = 880000; // 14 minutos en milisegundos
 
 const tiempoEspera = Math.floor(Math.random() * (max - min + 1)) + min;
 
