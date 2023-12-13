@@ -1,6 +1,6 @@
 function actualizarAWS() {
-    const min = 720000;
-    const max = 1080000;
+    const min = 790000;
+    const max = 880000;
   
     const tiempoEspera = Math.floor(Math.random() * (max - min + 1)) + min;
   
